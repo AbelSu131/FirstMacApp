@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCC4B6B71DF28C3400C1D5C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC4B6B61DF28C3400C1D5C3 /* AppDelegate.swift */; };
+		BCC4B6B91DF28C3400C1D5C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC4B6B81DF28C3400C1D5C3 /* ViewController.swift */; };
+		BCC4B6BB1DF28C3400C1D5C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCC4B6BA1DF28C3400C1D5C3 /* Assets.xcassets */; };
+		BCC4B6BE1DF28C3400C1D5C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCC4B6BC1DF28C3400C1D5C3 /* Main.storyboard */; };
+		BCC4B6C91DF28C3400C1D5C3 /* FirstMacAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC4B6C81DF28C3400C1D5C3 /* FirstMacAppTests.swift */; };
+		BCC4B6D41DF28C3400C1D5C3 /* FirstMacAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC4B6D31DF28C3400C1D5C3 /* FirstMacAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCC4B6C51DF28C3400C1D5C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCC4B6AB1DF28C3300C1D5C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCC4B6B21DF28C3300C1D5C3;
+			remoteInfo = FirstMacApp;
+		};
+		BCC4B6D01DF28C3400C1D5C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCC4B6AB1DF28C3300C1D5C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCC4B6B21DF28C3300C1D5C3;
+			remoteInfo = FirstMacApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCC4B6B31DF28C3400C1D5C3 /* FirstMacApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstMacApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCC4B6B61DF28C3400C1D5C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCC4B6B81DF28C3400C1D5C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCC4B6BA1DF28C3400C1D5C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCC4B6BD1DF28C3400C1D5C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCC4B6BF1DF28C3400C1D5C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCC4B6C41DF28C3400C1D5C3 /* FirstMacAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstMacAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCC4B6C81DF28C3400C1D5C3 /* FirstMacAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstMacAppTests.swift; sourceTree = "<group>"; };
+		BCC4B6CA1DF28C3400C1D5C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCC4B6CF1DF28C3400C1D5C3 /* FirstMacAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstMacAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCC4B6D31DF28C3400C1D5C3 /* FirstMacAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstMacAppUITests.swift; sourceTree = "<group>"; };
+		BCC4B6D51DF28C3400C1D5C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCC4B6B01DF28C3300C1D5C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCC4B6C11DF28C3400C1D5C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCC4B6CC1DF28C3400C1D5C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCC4B6AA1DF28C3300C1D5C3 = {
+			isa = PBXGroup;
+			children = (
+				BCC4B6B51DF28C3400C1D5C3 /* FirstMacApp */,
+				BCC4B6C71DF28C3400C1D5C3 /* FirstMacAppTests */,
+				BCC4B6D21DF28C3400C1D5C3 /* FirstMacAppUITests */,
+				BCC4B6B41DF28C3400C1D5C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCC4B6B41DF28C3400C1D5C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCC4B6B31DF28C3400C1D5C3 /* FirstMacApp.app */,
+				BCC4B6C41DF28C3400C1D5C3 /* FirstMacAppTests.xctest */,
+				BCC4B6CF1DF28C3400C1D5C3 /* FirstMacAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCC4B6B51DF28C3400C1D5C3 /* FirstMacApp */ = {
+			isa = PBXGroup;
+			children = (
+				BCC4B6B61DF28C3400C1D5C3 /* AppDelegate.swift */,
+				BCC4B6B81DF28C3400C1D5C3 /* ViewController.swift */,
+				BCC4B6BA1DF28C3400C1D5C3 /* Assets.xcassets */,
+				BCC4B6BC1DF28C3400C1D5C3 /* Main.storyboard */,
+				BCC4B6BF1DF28C3400C1D5C3 /* Info.plist */,
+			);
+			path = FirstMacApp;
+			sourceTree = "<group>";
+		};
+		BCC4B6C71DF28C3400C1D5C3 /* FirstMacAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCC4B6C81DF28C3400C1D5C3 /* FirstMacAppTests.swift */,
+				BCC4B6CA1DF28C3400C1D5C3 /* Info.plist */,
+			);
+			path = FirstMacAppTests;
+			sourceTree = "<group>";
+		};
+		BCC4B6D21DF28C3400C1D5C3 /* FirstMacAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCC4B6D31DF28C3400C1D5C3 /* FirstMacAppUITests.swift */,
+				BCC4B6D51DF28C3400C1D5C3 /* Info.plist */,
+			);
+			path = FirstMacAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCC4B6B21DF28C3300C1D5C3 /* FirstMacApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCC4B6D81DF28C3400C1D5C3 /* Build configuration list for PBXNativeTarget "FirstMacApp" */;
+			buildPhases = (
+				BCC4B6AF1DF28C3300C1D5C3 /* Sources */,
+				BCC4B6B01DF28C3300C1D5C3 /* Frameworks */,
+				BCC4B6B11DF28C3300C1D5C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirstMacApp;
+			productName = FirstMacApp;
+			productReference = BCC4B6B31DF28C3400C1D5C3 /* FirstMacApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCC4B6C31DF28C3400C1D5C3 /* FirstMacAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCC4B6DB1DF28C3400C1D5C3 /* Build configuration list for PBXNativeTarget "FirstMacAppTests" */;
+			buildPhases = (
+				BCC4B6C01DF28C3400C1D5C3 /* Sources */,
+				BCC4B6C11DF28C3400C1D5C3 /* Frameworks */,
+				BCC4B6C21DF28C3400C1D5C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCC4B6C61DF28C3400C1D5C3 /* PBXTargetDependency */,
+			);
+			name = FirstMacAppTests;
+			productName = FirstMacAppTests;
+			productReference = BCC4B6C41DF28C3400C1D5C3 /* FirstMacAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCC4B6CE1DF28C3400C1D5C3 /* FirstMacAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCC4B6DE1DF28C3400C1D5C3 /* Build configuration list for PBXNativeTarget "FirstMacAppUITests" */;
+			buildPhases = (
+				BCC4B6CB1DF28C3400C1D5C3 /* Sources */,
+				BCC4B6CC1DF28C3400C1D5C3 /* Frameworks */,
+				BCC4B6CD1DF28C3400C1D5C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCC4B6D11DF28C3400C1D5C3 /* PBXTargetDependency */,
+			);
+			name = FirstMacAppUITests;
+			productName = FirstMacAppUITests;
+			productReference = BCC4B6CF1DF28C3400C1D5C3 /* FirstMacAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCC4B6AB1DF28C3300C1D5C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = AbelSu;
+				TargetAttributes = {
+					BCC4B6B21DF28C3300C1D5C3 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					BCC4B6C31DF28C3400C1D5C3 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BCC4B6B21DF28C3300C1D5C3;
+					};
+					BCC4B6CE1DF28C3400C1D5C3 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BCC4B6B21DF28C3300C1D5C3;
+					};
+				};
+			};
+			buildConfigurationList = BCC4B6AE1DF28C3300C1D5C3 /* Build configuration list for PBXProject "FirstMacApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCC4B6AA1DF28C3300C1D5C3;
+			productRefGroup = BCC4B6B41DF28C3400C1D5C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCC4B6B21DF28C3300C1D5C3 /* FirstMacApp */,
+				BCC4B6C31DF28C3400C1D5C3 /* FirstMacAppTests */,
+				BCC4B6CE1DF28C3400C1D5C3 /* FirstMacAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCC4B6B11DF28C3300C1D5C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC4B6BB1DF28C3400C1D5C3 /* Assets.xcassets in Resources */,
+				BCC4B6BE1DF28C3400C1D5C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCC4B6C21DF28C3400C1D5C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCC4B6CD1DF28C3400C1D5C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCC4B6AF1DF28C3300C1D5C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC4B6B91DF28C3400C1D5C3 /* ViewController.swift in Sources */,
+				BCC4B6B71DF28C3400C1D5C3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCC4B6C01DF28C3400C1D5C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC4B6C91DF28C3400C1D5C3 /* FirstMacAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCC4B6CB1DF28C3400C1D5C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC4B6D41DF28C3400C1D5C3 /* FirstMacAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCC4B6C61DF28C3400C1D5C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCC4B6B21DF28C3300C1D5C3 /* FirstMacApp */;
+			targetProxy = BCC4B6C51DF28C3400C1D5C3 /* PBXContainerItemProxy */;
+		};
+		BCC4B6D11DF28C3400C1D5C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCC4B6B21DF28C3300C1D5C3 /* FirstMacApp */;
+			targetProxy = BCC4B6D01DF28C3400C1D5C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCC4B6BC1DF28C3400C1D5C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCC4B6BD1DF28C3400C1D5C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCC4B6D61DF28C3400C1D5C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCC4B6D71DF28C3400C1D5C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		BCC4B6D91DF28C3400C1D5C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FirstMacApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.abel.FirstMacApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BCC4B6DA1DF28C3400C1D5C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FirstMacApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.abel.FirstMacApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BCC4B6DC1DF28C3400C1D5C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FirstMacAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.abel.FirstMacAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirstMacApp.app/Contents/MacOS/FirstMacApp";
+			};
+			name = Debug;
+		};
+		BCC4B6DD1DF28C3400C1D5C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FirstMacAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.abel.FirstMacAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirstMacApp.app/Contents/MacOS/FirstMacApp";
+			};
+			name = Release;
+		};
+		BCC4B6DF1DF28C3400C1D5C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FirstMacAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.abel.FirstMacAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FirstMacApp;
+			};
+			name = Debug;
+		};
+		BCC4B6E01DF28C3400C1D5C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FirstMacAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.abel.FirstMacAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FirstMacApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCC4B6AE1DF28C3300C1D5C3 /* Build configuration list for PBXProject "FirstMacApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC4B6D61DF28C3400C1D5C3 /* Debug */,
+				BCC4B6D71DF28C3400C1D5C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCC4B6D81DF28C3400C1D5C3 /* Build configuration list for PBXNativeTarget "FirstMacApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC4B6D91DF28C3400C1D5C3 /* Debug */,
+				BCC4B6DA1DF28C3400C1D5C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCC4B6DB1DF28C3400C1D5C3 /* Build configuration list for PBXNativeTarget "FirstMacAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC4B6DC1DF28C3400C1D5C3 /* Debug */,
+				BCC4B6DD1DF28C3400C1D5C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCC4B6DE1DF28C3400C1D5C3 /* Build configuration list for PBXNativeTarget "FirstMacAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC4B6DF1DF28C3400C1D5C3 /* Debug */,
+				BCC4B6E01DF28C3400C1D5C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCC4B6AB1DF28C3300C1D5C3 /* Project object */;
+}
